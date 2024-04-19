@@ -4,6 +4,7 @@ a simple Plugin, that allows for choosing and starting custom functions via a Te
 
 ## Requires
 https://github.com/nvim-telescope/telescope.nvim
+https://github.com/nvim-lua/plenary.nvim (dependency of Telescope)
 
 ## Usage
 Once installed, you can vim has a new command called `TR` for.
@@ -15,7 +16,7 @@ via Lazy.nvim (https://github.com/folke/lazy.nvim)
 ```lua
 {
     "rocco-gossmann/nvim-taskrunner",
-    dependencies = { 'nvim-telescope/telescope.nvim' },
+    dependencies = { 'nvim-lua/plenary.nvim', 'nvim-telescope/telescope.nvim' },
     init = function()
 
         require("nvim-taskrunner").setup({
