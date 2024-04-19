@@ -7,12 +7,14 @@ https://github.com/nvim-telescope/telescope.nvim
 https://github.com/nvim-lua/plenary.nvim (dependency of Telescope)
 
 ## Usage
-Once installed, you can vim has a new command called `TR` for.
+Once installed, vim gets a new command called `TR`.
 So simply type `:TR` in normal mode and your configured list will open.
 
 
 ## Configuration
-via Lazy.nvim (https://github.com/folke/lazy.nvim)
+Speaking of configured list. You configure that list during the setup process.
+
+via Lazy.nvim (https://github.com/folke/lazy.nvim) that setup would look like this.
 ```lua
 {
     "rocco-gossmann/nvim-taskrunner",
